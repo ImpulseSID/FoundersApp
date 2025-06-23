@@ -20,6 +20,7 @@ public class DetailActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        toolbar.setTitleTextColor(getResources().getColor(R.color.textPrimary));
 
         //Back Button
         if (getSupportActionBar() != null) {
